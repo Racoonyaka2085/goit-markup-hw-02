@@ -1,0 +1,24 @@
+header {
+    height: 80px;
+    width: 1600px;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    width: 45px;
+    height: 31px;
+    margin-top: 24px;
+    margin-left: 215px;
+}
+
+.web {
+    font-family: Raleway;
+    color: #2196F3;
+    font-weight: bold;
+}
+
+.studio {
+    font-family: Raleway;
+    color: black;
+    font-weight: bold;
+}
