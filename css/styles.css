@@ -1,24 +1,247 @@
-header {
-    height: 80px;
+.header {
+    display: inline-flex;
     width: 1600px;
-    background-color: #FFFFFF;
+    height: 80px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .logo {
-    width: 45px;
+    width: 145px;
     height: 31px;
     margin-top: 24px;
+    margin-bottom: 25px;
     margin-left: 215px;
+    margin-right: 93px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Raleway;
 }
 
 .web {
-    font-family: Raleway;
     color: #2196F3;
-    font-weight: bold;
 }
 
 .studio {
-    font-family: Raleway;
     color: black;
-    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.studia {
+    display: inline-flex;
+    width: 49px;
+    height: 16px;
+}
+
+.portfolio {
+    display: inline-flex;
+    padding-left: 50px;
+    width: 77px;
+    height: 16px;
+}
+
+.contacts {
+    display: inline-flex;
+    padding-left: 50px;
+    width: 68px;
+    height: 16px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: 331px;
+    width: 135px;
+    height: 16px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 50px;
+    margin-right: 215px;
+    width: 122px;
+    height: 16px;
+}
+
+
+/* .buttons */
+
+.buttons {
+    display: flex;
+}
+
+.button-box-all {
+    display: inline-flex;
+    margin-top: 94px;
+    margin-left: 495px;
+    width: 73px;
+    height: 38px;
+    background: #2196F3;
+    /* shadow-middle */
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.button-box-website {
+    display: inline-flex;
+    margin-left: 8px;
+    margin-top: 94px;
+    width: 128px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button-box-apps {
+    display: inline-flex;
+    margin-left: 8px;
+    margin-top: 94px;
+    width: 145px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button-box-design {
+    display: inline-flex;
+    margin-left: 8px;
+    margin-top: 94px;
+    width: 103px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button-box-marketing {
+    display: inline-flex;
+    margin-left: 8px;
+    margin-top: 94px;
+    margin-right: 494px;
+    width: 130px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+
+/* for buttons */
+
+.all {
+    display: flex;
+    width: 29px;
+    height: 26px;
+    margin: 6px 22px;
+    border-style: none;
+    background-color: #2196F3;
+}
+
+.website {
+    display: flex;
+    justify-content: center;
+    width: 84px;
+    height: 26px;
+    margin: 6px 22px;
+    border-style: none;
+    background-color: #F5F4FA;
+}
+
+.apps {
+    display: flex;
+    justify-content: center;
+    width: 101px;
+    height: 26px;
+    margin: 6px 22px;
+    border-style: none;
+    background-color: #F5F4FA;
+}
+
+.design {
+    display: flex;
+    justify-content: center;
+    width: 59px;
+    height: 26px;
+    margin: 6px 22px;
+    border-style: none;
+    background-color: #F5F4FA;
+}
+
+.marketing {
+    display: flex;
+    justify-content: center;
+    width: 86px;
+    height: 26px;
+    margin: 6px 22px;
+    border-style: none;
+    background-color: #F5F4FA;
+}
+
+
+/* block-images */
+
+.images-box {
+    display: flex;
+    margin-left: 215px;
+}
+
+.box {
+    display: inline-flex;
+    width: 370px;
+    height: 404px;
+    border: 1px solid #EEEEEE;
+    margin-right: 30px;
+}
+
+.images {
+    width: 370px;
+    height: 294px;
+    padding-left: 0px;
+}
+
+.for-h3 {
+    display: inline-flex;
+    width: 322px;
+    height: 36px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 4px;
+}
+
+.for-p {
+    display: inline-flex;
+    width: 322px;
+    height: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 1600px;
+    height: 252px;
+    background-color: #2F303A;
+    margin-top: 94px;
+}
+
+.studio-2 {
+    color: white;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    padding-left: 215px;
 }
