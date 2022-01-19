@@ -27,15 +27,16 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    text-decoration: underline #2196F3 0.15em;
     text-decoration: none;
 }
 
 .web {
+    font-family: Raleway, sans-serif;
     color: #2196F3;
 }
 
 .studio {
+    font-family: Raleway, sans-serif;
     color: black;
 }
 
@@ -58,7 +59,6 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: underline #2196F3 0.15em;
     text-decoration: none;
 }
 
@@ -71,7 +71,6 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: underline #2196F3 0.15em;
     text-decoration: none;
 }
 
@@ -84,7 +83,6 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: underline #2196F3 0.15em;
     text-decoration: none;
 }
 
@@ -100,7 +98,6 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: underline #2196F3 0.15em;
     text-decoration: none;
 }
 
@@ -122,9 +119,7 @@ body {
 
 /* -----------------------------Main-------------------------------- */
 
-.link-for-footer:hover {
-    text-decoration: underline #2196F3 0.15em;
-}
+.link-for-footer:hover {}
 
 .efect {
     background-color: #2F303A;
@@ -180,20 +175,12 @@ body {
     text-transform: uppercase;
 }
 
-.names:hover {
-    text-decoration: underline #2196F3 0.15em;
-}
-
 .p-style {
     color: var(--second-color);
     font-family: inherit;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
-}
-
-.p-style:hover {
-    text-decoration: underline #2196F3 0.15em;
 }
 
 .block {
@@ -263,6 +250,7 @@ footer {
 }
 
 .studio-footer {
+    font-family: Raleway, sans-serif;
     color: white;
 }
 
@@ -272,13 +260,12 @@ footer {
     width: 145px;
     height: 31px;
     margin-left: 215px;
-    font-family: Ralewa, sans-serif;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    text-decoration: underline #2196F3 0.15em;
     text-decoration: none;
 }
 
@@ -286,12 +273,13 @@ footer {
     display: flex;
     margin-left: 215px;
     padding-top: 20px;
+    font-family: inherit;
+    font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    text-decoration: underline #2196F3 0.15em;
     text-decoration: none;
 }
 
@@ -299,11 +287,11 @@ footer {
     display: flex;
     margin-left: 215px;
     padding-top: 9px;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.74;
     color: rgba(255, 255, 255, 0.6);
     letter-spacing: 0.03em;
-    text-decoration: underline #2196F3 0.15em;
     text-decoration: none;
 }
 
@@ -311,16 +299,16 @@ footer {
     display: flex;
     margin-left: 215px;
     padding-top: 9px;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.74;
     color: rgba(255, 255, 255, 0.6);
     letter-spacing: 0.03em;
-    text-decoration: underline #2196F3 0.15em;
     text-decoration: none;
 }
 
 
-/* page-portfolio */
+/* -------------------------------------page-portfolio---------------------- */
 
 .header-portfolio {
     display: inline-flex;
@@ -340,7 +328,6 @@ footer {
     font-weight: bold;
     font-family: Raleway, sans-serif;
     letter-spacing: 0.03em;
-    text-decoration: underline #2196F3 0.15em;
     text-decoration: none;
 }
 
@@ -358,7 +345,6 @@ footer {
     height: 16px;
     color: #2196F3;
     font-size: 14px;
-    text-decoration: underline #2196F3 0.15em;
     text-decoration: none;
 }
 
@@ -370,7 +356,6 @@ footer {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: underline #2196F3 0.15em;
     text-decoration: none;
 }
 
@@ -383,7 +368,6 @@ footer {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: underline #2196F3 0.15em;
     text-decoration: none;
 }
 
@@ -399,7 +383,6 @@ footer {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: underline #2196F3 0.15em;
     text-decoration: none;
 }
 
@@ -413,7 +396,6 @@ footer {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: underline #2196F3 0.15em;
     text-decoration: none;
 }
 
@@ -487,6 +469,8 @@ footer {
 }
 
 .text-for-all {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     padding-top: 6px;
     padding-left: 22px;
     font-weight: var(--main-font-weight);
@@ -497,11 +481,12 @@ footer {
 }
 
 .text-for-all:hover {
-    text-decoration: underline #2196F3 0.15em;
     cursor: pointer;
 }
 
 .text-for-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     padding-top: 6px;
     padding-left: 22px;
     font-weight: var(--main-font-weight);
@@ -512,7 +497,6 @@ footer {
 }
 
 .text-for-button:hover {
-    text-decoration: underline #2196F3 0.15em;
     cursor: pointer;
 }
 
@@ -547,9 +531,7 @@ footer {
     text-transform: none;
 }
 
-.for-h2:hover {
-    text-decoration: underline #2196F3 0.15em;
-}
+.for-h2:hover {}
 
 .for-p {
     margin-top: 4px;
@@ -560,6 +542,4 @@ footer {
     color: var(--second-color);
 }
 
-.for-p:hover {
-    text-decoration: underline #2196F3 0.15em;
-}
+.for-p:hover {}
