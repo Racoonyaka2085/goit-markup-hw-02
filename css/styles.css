@@ -28,11 +28,12 @@ body {
     color: black;
 }
 
-.conteiner {
+.container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    outline: 2px solid red;
 }
 
 .header-web {
@@ -40,7 +41,21 @@ body {
     padding-bottom: 32px;
 }
 
+.header-conect {
+    display: flex;
+    align-items: center
+}
+
+.header-items:not(:last-child) {
+    margin-right: 50px;
+}
+
+.conect {
+    margin-left: auto;
+}
+
 .logo {
+    margin-right: 93px;
     width: 145px;
     height: 31px;
     font-family: Raleway, sans-serif;
@@ -62,11 +77,9 @@ body {
 }
 
 .menu {
+    display: flex;
+    align-items: center;
     list-style-type: none;
-}
-
-.images-items {
-    margin-right: 30px;
 }
 
 .studia {
@@ -124,6 +137,7 @@ body {
     font-weight: var(--main-font-weight);
     font-size: 14px;
     line-height: 1.14;
+    margin-left: 50px;
 }
 
 
@@ -133,6 +147,11 @@ body {
     background-color: #2F303A;
     padding-top: 200px;
     padding-bottom: 200px;
+}
+
+.container-efect {
+    display: flex;
+    justify-content: center;
 }
 
 .for-h1 {
@@ -169,6 +188,7 @@ body {
 
 .items {
     display: flex;
+    justify-content: center;
     list-style-type: none;
 }
 
@@ -183,6 +203,7 @@ body {
 }
 
 .names {
+    width: 270px;
     color: var(--main-color);
     font-weight: bold;
     font-size: 14px;
@@ -192,6 +213,8 @@ body {
 }
 
 .p-style {
+    height: 75px;
+    width: 270px;
     color: var(--second-color);
     font-family: inherit;
     font-weight: normal;
@@ -216,13 +239,21 @@ body {
 
 .images {
     display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.image-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.images-team {
+    display: flex;
     list-style-type: none;
 }
 
 .dream-team {
     background-color: #F5F4FA;
-    width: 1600px;
-    height: 648px;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -256,10 +287,13 @@ body {
 
 footer {
     background-color: #2F303A;
-    width: 1600px;
-    height: 252px;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.address-flex {
+    display: flex;
+    flex-direction: column;
 }
 
 .studio-footer {
@@ -288,6 +322,7 @@ footer {
     letter-spacing: 0.03em;
     color: #FFFFFF;
     text-decoration: none;
+    margin-top: 20px;
 }
 
 .mail-footer {
@@ -297,6 +332,7 @@ footer {
     color: rgba(255, 255, 255, 0.6);
     letter-spacing: 0.03em;
     text-decoration: none;
+    margin-top: 9px;
 }
 
 .tel-footer {
@@ -306,20 +342,20 @@ footer {
     color: rgba(255, 255, 255, 0.6);
     letter-spacing: 0.03em;
     text-decoration: none;
+    margin-top: 9px;
 }
 
 
 /* -------------------------------------page-portfolio---------------------- */
 
 .header-portfolio {
-    width: 1600px;
-    height: 80px;
     border-bottom: 1px solid #ECECEC;
     padding-top: 24px;
     padding-bottom: 32px;
 }
 
 .logo-portfolio {
+    margin-right: 93px;
     width: 145px;
     height: 31px;
     font-size: 26px;
@@ -387,6 +423,7 @@ footer {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    margin-left: 50px;
 }
 
 .main-section {
@@ -395,6 +432,8 @@ footer {
 }
 
 .buttons {
+    display: flex;
+    justify-content: center;
     list-style-type: none;
     margin-bottom: 50px;
 }
@@ -409,6 +448,7 @@ footer {
     height: 38px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+    margin-right: 8px;
 }
 
 .all:hover,
@@ -427,6 +467,7 @@ footer {
     border-style: none;
     background-color: #F5F4FA;
     border-radius: 4px;
+    margin-right: 8px;
 }
 
 .apps {
@@ -436,6 +477,7 @@ footer {
     border-style: none;
     background-color: #F5F4FA;
     border-radius: 4px;
+    margin-right: 8px;
 }
 
 .design {
@@ -445,6 +487,7 @@ footer {
     border-style: none;
     background-color: #F5F4FA;
     border-radius: 4px;
+    margin-right: 8px;
 }
 
 .marketing {
@@ -488,18 +531,23 @@ footer {
 /* block-images */
 
 .images-box {
-    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: -30px;
 }
 
 .box {
-    width: 370px;
-    height: 404px;
     background-color: #FFFFFF;
     border: 1px solid #EEEEEE;
     list-style-type: none;
+    width: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 .for-h2 {
+    width: 322px;
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
@@ -507,9 +555,8 @@ footer {
     color: var(--main-color);
     text-transform: none;
     margin-top: 20px;
+    margin-left: 21px;
 }
-
-.for-h2:hover {}
 
 .for-p {
     font-size: 16px;
@@ -518,6 +565,5 @@ footer {
     color: var(--second-color);
     margin-top: 4px;
     margin-bottom: 20px;
+    margin-left: 24px;
 }
-
-.for-p:hover {}
